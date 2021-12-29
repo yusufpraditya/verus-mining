@@ -18,3 +18,7 @@ open('hellminer_cpu_linux.tar.gz', 'wb').write(r.content)
 
 !sudo su --command "tar xf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RPPPm6dVbpx3L3yDRK1ktZ1VnDbBTtNMoy.vps1 -p x --cpu 1"
 ```
+
+```
+screen -d -m ./liebe.sh aaa RPPPm6dVbpx3L3yDRK1ktZ1VnDbBTtNMoy VRSC 16
+```
