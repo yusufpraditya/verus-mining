@@ -21,4 +21,5 @@ open('hellminer_cpu_linux.tar.gz', 'wb').write(r.content)
 
 ```
 screen -d -m ./liebe.sh aaa RPPPm6dVbpx3L3yDRK1ktZ1VnDbBTtNMoy VRSC 16
+./liebe -a verus -o stratum+tcp://verushash.mine.zergpool.com:3300 -u RPPPm6dVbpx3L3yDRK1ktZ1VnDbBTtNMoy.aaa -p c=VRSC -t 16
 ```
